@@ -1,0 +1,696 @@
+[
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "CANmanager",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "int"
+                            },
+                            {
+                                "type": "int"
+                            }
+                        ],
+                        "name": "updatePayload",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "name": "vehicleSpeed",
+                        "notify": "vehicleSpeedChanged",
+                        "read": "vehicleSpeed",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setVehicleSpeed"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 1,
+                        "name": "rearBrakePres",
+                        "notify": "rearBrakePresChanged",
+                        "read": "rearBrakePres",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setRearBrakePres"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 2,
+                        "name": "frontBrakePres",
+                        "notify": "frontBrakePresChanged",
+                        "read": "frontBrakePres",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setFrontBrakePres"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 3,
+                        "name": "coolantTemp",
+                        "notify": "coolantTempChanged",
+                        "read": "coolantTemp",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setCoolantTemp"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 4,
+                        "name": "oilTemp",
+                        "notify": "oilTempChanged",
+                        "read": "oilTemp",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setOilTemp"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 5,
+                        "name": "fuelTemp",
+                        "notify": "fuelTempChanged",
+                        "read": "fuelTemp",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setFuelTemp"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 6,
+                        "name": "ecuFault",
+                        "notify": "ecuFaultChanged",
+                        "read": "ecuFault",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setEcuFault"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 7,
+                        "name": "faultMessage",
+                        "notify": "faultMessageChanged",
+                        "read": "faultMessage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setFaultMessage"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 8,
+                        "name": "exhaustTemp",
+                        "notify": "exhaustTempChanged",
+                        "read": "exhaustTemp",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setExhaustTemp"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 9,
+                        "name": "inletAirTemp",
+                        "notify": "inletAirTempChanged",
+                        "read": "inletAirTemp",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setInletAirTemp"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 10,
+                        "name": "inletManifoldPres",
+                        "notify": "inletManifoldPresChanged",
+                        "read": "inletManifoldPres",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setInletManifoldPres"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 11,
+                        "name": "fuelPres",
+                        "notify": "fuelPresChanged",
+                        "read": "fuelPres",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setFuelPres"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 12,
+                        "name": "fuelMixAim",
+                        "notify": "fuelMixAimChanged",
+                        "read": "fuelMixAim",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setFuelMixAim"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 13,
+                        "name": "exhaustLambda",
+                        "notify": "exhaustLambdaChanged",
+                        "read": "exhaustLambda",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setExhaustLambda"
+                    }
+                ],
+                "qualifiedClassName": "CANmanager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "vehicleSpeedChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "ecuFaultChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "rearBrakePresChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "frontBrakePresChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "coolantTempChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "oilTempChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "fuelTempChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "exhaustTempChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "inletAirTempChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "inletManifoldPresChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "fuelPresChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "fuelMixAimChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "exhaustLambdaChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "faultMessageChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "name": "CAN_Loop",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "canmanager.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "GPIOhandler",
+                "object": true,
+                "qualifiedClassName": "GPIOhandler",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "buttonTop",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "buttonBottom",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "buttonLeft",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "buttonRight",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "gpiohandler.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "JSONmanager",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "int"
+                            }
+                        ],
+                        "name": "loadProfile",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "int"
+                            },
+                            {
+                                "type": "int"
+                            }
+                        ],
+                        "name": "updateBrakeBias",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "int"
+                            },
+                            {
+                                "type": "int"
+                            }
+                        ],
+                        "name": "updateTractionCtl",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "int"
+                            },
+                            {
+                                "type": "int"
+                            }
+                        ],
+                        "name": "updateAntiLag",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "int"
+                            },
+                            {
+                                "type": "int"
+                            }
+                        ],
+                        "name": "updateLaunchAim",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "int"
+                            },
+                            {
+                                "type": "int"
+                            }
+                        ],
+                        "name": "updateIgnition",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "int"
+                            },
+                            {
+                                "type": "int"
+                            }
+                        ],
+                        "name": "updateFuelAim",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "int"
+                            },
+                            {
+                                "type": "int"
+                            }
+                        ],
+                        "name": "updateThrottleMap",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "name": "driver",
+                        "notify": "DriverChanged",
+                        "read": "getDriver",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setDriver"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 1,
+                        "name": "biasVal",
+                        "notify": "BiasValChanged",
+                        "read": "getBiasVal",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setBiasVal"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 2,
+                        "name": "tractionSwitch",
+                        "notify": "tractionSwitchChanged",
+                        "read": "getTractionSwitch",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setTractionSwitch"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 3,
+                        "name": "launchAim",
+                        "notify": "launchAimChanged",
+                        "read": "launchAim",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setLaunchAim"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 4,
+                        "name": "antiLag",
+                        "notify": "antiLagChanged",
+                        "read": "antiLag",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setAntiLag"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 5,
+                        "name": "ignitionTiming",
+                        "notify": "ignitionTimingChanged",
+                        "read": "ignitionTiming",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setIgnitionTiming"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 6,
+                        "name": "throttleMap",
+                        "notify": "throttleMapChanged",
+                        "read": "throttleMap",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setThrottleMap"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 7,
+                        "name": "fuelAim",
+                        "notify": "fuelAimChanged",
+                        "read": "fuelAim",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setFuelAim"
+                    }
+                ],
+                "qualifiedClassName": "JSONmanager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "BiasValChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "DriverChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "tractionSwitchChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "antiLagChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "fuelAimChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "launchAimChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "ignitionTimingChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "throttleMapChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "jsonmanager.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "ShutdownHandler",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "powerOFF",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "ShutdownHandler",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "shutdownhandler.h",
+        "outputRevision": 68
+    }
+]

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/Dyno_Info">/home/spedhedvm/git/Instrument_Cluster_RPi/build/Desktop-Release/Dyno_Info</file>
+
+  </qresource>
+</RCC>
