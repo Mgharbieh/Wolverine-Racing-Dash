@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "ShutdownHandler",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "powerOFF",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "ShutdownHandler",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "shutdownhandler.h",
+    "outputRevision": 68
+}
